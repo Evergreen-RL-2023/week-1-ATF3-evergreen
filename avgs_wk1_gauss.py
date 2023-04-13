@@ -33,7 +33,7 @@ def average3():
     
     for i in range(1, N):
         val = random.gauss(0, 1)
-        avg = avg + (val-avg)/i
+        avg = avg + (val-avg)/i  # keep running avg, updating based on deviation from old avg; weighted by 1/i
     print('avg3', avg)
 
 

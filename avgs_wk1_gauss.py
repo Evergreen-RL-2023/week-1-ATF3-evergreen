@@ -36,6 +36,7 @@ def average3():
         avg = avg + (val-avg)/i  # keep running avg, updating based on deviation from old avg; weighted by 1/i
     print('avg3', avg)
 
+# TODO new task - use matplotlib to plot results
 
 if __name__ == '__main__':
     average1()
